@@ -1,0 +1,8 @@
+# Target ESP32
+CONFIG_IDF_TARGET="esp32"
+
+# Frequência CPU
+CONFIG_ESP32_DEFAULT_CPU_FREQ_240=y
+
+# Log nível padrão: INFO (mude para DEBUG para mais detalhes)
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
